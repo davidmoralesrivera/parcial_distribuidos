@@ -1,4 +1,4 @@
-#include "cliente.h"
+#include "Cliente.h"
 #include "InformacionCliente.h"
 
 
