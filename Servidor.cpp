@@ -49,7 +49,7 @@ void * recibirCliente(void * cli){
 
 		    ofstream myfile;
 		    string nombre = "info_de_"+result[0]+".txt";
-			myfile.open (nombre.s_str());
+			myfile.open (nombre.c_str());
 			myfile << "IP: " <<result[0]<<endl;
 			myfile << "mensaje: " <<result[1]<<endl;
 			myfile << "Fecha y hora: " <<result[2]<<endl;
